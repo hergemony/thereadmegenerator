@@ -14,7 +14,7 @@
 //this app is used to generate a readme file for our user
 //use inquirer to ask user questions
 const inquirer = require('inquirer');
-const readme = require('./node_modules/readme');
+const readme = require('./readme');
 const fs = require('fs');
 
 
@@ -35,17 +35,17 @@ inquirer.prompt([
     {
         type: "input",
         message: "Create your Table of Contents",
-        name: "table of contents",
+        name: "contents",
     },
 {
     type: "input",
     message: "Installation Instructions",
-    name: "installation instructions",
+    name: "installation",
 },
 {
     type: "input",
     message: "Usage Information",
-    name: "usage information",
+    name: "usage",
 },
 {
         type: "list",
@@ -67,25 +67,14 @@ inquirer.prompt([
         name: "tests",
     },
     {
-        type:"input",
-        message: "Insert Screenshots of the application",
-        name: "screenshots",
-    },
-    {
-
-        type: "input",
-        message: "Insert Demo video of the application",
-        name: "video Demo",
-    },
-    {
         type: "input",
         message: "Acknowledgements",
-        name: "Acknowledgements",
+        name: "acknowledgements",
     },
     {
         type: "input",
         message: "Insert Company Footer/Signature/Copyright",
-        name: "Copyright",
+        name: "copyright",
     },
         
 
@@ -98,7 +87,7 @@ inquirer.prompt([
     
     //save the readme content to a README.md file
     
-    fs.writeFileSync(__dirname + '/readme.md', readmeContent, 'utf-8');
+    fs.writeFileSync(__dirname + '/README.md', readmeContent, 'utf-8');
 
 });
 

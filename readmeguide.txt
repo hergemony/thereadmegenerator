@@ -3,6 +3,8 @@ If you are stuck as to what to include as answers, below is a guide to help crea
 ##Title
 Give a simple and easy-to-remember title for your project.
 
+ie. READ ME Generator
+
 ##Description
 Provide a short description explaining the what, why and how of your project. Use the following questions as a guide:
 - What was your motivation?
@@ -10,15 +12,23 @@ Provide a short description explaining the what, why and how of your project. Us
 - What problem does it solve?
 - What did you learn?
 
+ie. A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+
 ##Table of Contents
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 ##Installation
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment up and running.
 
+ie. 
+First, use git clone in the terminal to download the project
+Then open the project in VS Code and in the package.json folder enter the terminal
+Within the terminal, use npm install inquirer to install the inquirer package
+The command-line application should work when node index.js is entered in the terminal
+
 ##Usage
-How will users use this application?
-For example: This application can allow users to quickly and easily create a README file by using a command-line application to generate one.
+How will user's use this application?
+ie. This application can allow users to quickly and easily create a README file by using a command-line application to generate one.
 
 ##Screenshot
 Provide instructions and examples for use. Include screenshots as needed.
@@ -28,15 +38,21 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
+OR 
+Go into your Github once the screenshot has been committed to the repository, open the screenshot link, copy and paste the link from the browser into VS Code, adding ?raw=true to the end of the link. Add it to your README using the following syntax:
+
+ie. ![alt text](https://github.com/hergemony/readmegenerator/blob/main/assets/images/Screen%20Shot%202022-04-19%20at%2011.05.44%20am.png?raw=true)
 
 ##Video
 Include a walkthrough video that demonstrates its functionality ie.using Screencastify or OBS.
 Provide a link to the video and add it to the README of your project.
-https://drive.google.com/file/d/1Oslm6RCPScErXn4-AufZ6xFKltaEgI30/view?usp=sharing
+ie. 
+https://drive.google.com/file/...
 
 ##License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project.
-NB. A badge is usually included at the top after the title for professionalism.
+NB. A badge is usually included at the top after the title for professionalism. Use the following syntax:
+ie. ![License](https://img.shields.io/badge/License-MIT-blue)
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/).
 
 ##Features
@@ -52,7 +68,8 @@ List your collaborators, if any, with links to their GitHub profiles. If you use
 Give contact details so users may contact you with any questions.
 
 ##Copyright
-Sign off the README.md file with a company logo/copyright/signature.
+Sign off the README.md file with a company name/copyright/signature.
 
+ie. ❤ Hergemony™ Digital Services 2022 ❤
 
-(The above text has been compiled using the following Source: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+(The above text has been compiled with the help of the following Source: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)

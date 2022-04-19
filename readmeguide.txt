@@ -44,10 +44,12 @@ Go into your Github once the screenshot has been committed to the repository, op
 ie. ![alt text](https://github.com/hergemony/readmegenerator/blob/main/assets/images/Screen%20Shot%202022-04-19%20at%2011.05.44%20am.png?raw=true)
 
 ##Video
-Include a walkthrough video that demonstrates its functionality ie.using Screencastify or OBS.
+Include a walkthrough video that demonstrates its functionality ie.using Screencastify or OBS video uploaded to Youtube.
 Provide a link to the video and add it to the README of your project.
-ie. 
-https://drive.google.com/file/...
+ie. Template:
+[![Alt text for your video](assets/images/Youtubescreenshotreadmegenerator.png)](https://youtu.be/xxGy6bumx08 "Put hover text here!")
+
+https://youtu.be/xxGy6bumx08
 
 ##License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project.

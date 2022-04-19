@@ -19,7 +19,8 @@ This application allows users to quickly and easily create a README.md file by u
 ![alt text](https://github.com/hergemony/readmegenerator/blob/main/assets/images/Screen%20Shot%202022-04-19%20at%2011.05.44%20am.png?raw=true)
 
 ## Video
-na
+[![Alt text for your video](assets/images/Youtubescreenshotreadmegenerator.png)](https://youtu.be/xxGy6bumx08 "Put hover text here!")
+
 
 ## License
 MIT

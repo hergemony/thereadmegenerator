@@ -31,6 +31,7 @@ ${answers.Video}
 
 ## License
 ${answers.License}
+![License](${generateBadgeUrl(answers.License)})
 
 ## Features
 ${answers.Features}

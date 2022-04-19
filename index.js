@@ -39,8 +39,8 @@ inquirer.prompt([
         type: "checkbox",
         message: "List your Table of Contents",
         choices: [
-            "[Installation](#Installation)",
-            "[Usage](#Usage)",
+            "[Installation](##Installation)",
+            "[Usage](##Usage)",
             "[Screenshot](#Screenshot)",
             "[Video](#Video)",
             "[License](#License)",
@@ -77,7 +77,7 @@ inquirer.prompt([
         type: "list",
         message: "What license is the application covered under?",
         choices: [
-            "MIT",
+            "MIT ![License](https://img.shields.io/badge/License-MIT-blue)",
             "Apache-2.0",
             "GPL 3.0",
             "BSD 2 Clause",

@@ -26,16 +26,16 @@ This application allows users to quickly and easily create a README.md file by u
 MIT
 
 ## Features
-na
+N/A
 
 ## Tests
-na
+N/A
 
 ## Credits
-na
+N/A
 
 ## Questions
 Any questions email me hergemony@gmail.com
 
 ## Copyright
-Hergemony™️ Digital Services 2022.
+2022 Hergemony™️ Digital Services.

@@ -1,3 +1,4 @@
+// Application PLAN:
 // Description
 // Table of contents
 // Installation instructions
@@ -13,6 +14,8 @@
 
 //this app is used to generate a readme file for our user
 //use inquirer to ask user questions
+
+
 const inquirer = require('inquirer');
 const readme = require('./readme');
 const fs = require('fs');
@@ -24,28 +27,36 @@ inquirer.prompt([
     {
         type: "input",
         message: "What is the title of your project?",
-        name: "title",
+        name: "Title",
     },
     {
         type: "input",
         message: "What is the description of your project?",
-        name: "description",
+        name: "Description",
 
     },
     {
-        type: "input",
-        message: "Create your Table of Contents",
-        name: "contents",
+        type: "checkbox",
+        message: "List your Table of Contents",
+        choices: [
+            "Installation",
+            "Usage",
+            "License",
+            "Contributions",
+            "Tests",
+            "Questions",
+        ],
+        name: "Contents",
     },
 {
     type: "input",
-    message: "Installation Instructions",
-    name: "installation",
+    message: "What is your project installation process?",
+    name: "Installation",
 },
 {
     type: "input",
-    message: "Usage Information",
-    name: "usage",
+    message: "What is your project usage?",
+    name: "Usage",
 },
 {
         type: "list",
@@ -58,23 +69,28 @@ inquirer.prompt([
             "BSD 3 Clause",
             "BSD 4 Clause",
         ],
-        name: "license",
+        name: "License",
     },
     {
 
         type: "input",
         message: "What tests have been performed?",
-        name: "tests",
+        name: "Tests",
     },
     {
         type: "input",
-        message: "Acknowledgements",
-        name: "acknowledgements",
+        message: "List your collaborators/creators and provide links",
+        name: "Contributions",
+    },
+    {
+        type: "input",
+        message: "How will users contact you with questions?",
+        name: "Questions",
     },
     {
         type: "input",
         message: "Insert Company Footer/Signature/Copyright",
-        name: "copyright",
+        name: "Copyright",
     },
         
 
@@ -91,3 +107,4 @@ inquirer.prompt([
 
 });
 
+//finish working code 

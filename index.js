@@ -39,12 +39,14 @@ inquirer.prompt([
         type: "checkbox",
         message: "List your Table of Contents",
         choices: [
-            "Installation",
-            "Usage",
-            "License",
-            "Contributions",
-            "Tests",
-            "Questions",
+            "[Installation] (#Installation)",
+            "[Usage] (##Usage)",
+            "[Screenshot] (#Screenshot)",
+            "[License](#License)",
+            "[Features] (#Features)",
+            "[Credits] (#Credits)",
+            "[Tests] (#Tests)",
+            "[Questions] (#Questions)",
         ],
         name: "Contents",
     },
@@ -57,6 +59,17 @@ inquirer.prompt([
     type: "input",
     message: "What is your project usage?",
     name: "Usage",
+},
+{
+    type: "input",
+    message: "Include a Screenshot (Use the following format and link: ![alt text](assets/images/screenshot.png )",
+    name: "Screenshot",
+},
+{
+    type: "input",
+    message: "Include a Video Demo (Use the following format and link: ",
+    name: "Video",
+
 },
 {
         type: "list",
@@ -72,15 +85,19 @@ inquirer.prompt([
         name: "License",
     },
     {
-
+        type:"input",
+        message: "Does your project have any special features?",
+        name: "Features",
+    },
+    {
         type: "input",
         message: "What tests have been performed?",
         name: "Tests",
     },
     {
         type: "input",
-        message: "List your collaborators/creators and provide links",
-        name: "Contributions",
+        message: "List your contributors/collaborators/creators and provide links",
+        name: "Credits",
     },
     {
         type: "input",

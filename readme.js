@@ -23,14 +23,23 @@ ${answers.Installation}
 ## Usage
 ${answers.Usage}
 
+## Screenshot
+${answers.Screenshot}
+
+## Video
+${answers.Video}
+
 ## License
 ${answers.License}
+
+## Features
+${answers.Features}
 
 ## Tests
 ${answers.Tests}
 
-## Contributions
-${answers.Contributions}
+## Credits
+${answers.Credits}
 
 ## Questions
 ${answers.Questions}

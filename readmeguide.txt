@@ -47,9 +47,7 @@ ie. ![alt text](https://github.com/hergemony/readmegenerator/blob/main/assets/im
 Include a walkthrough video that demonstrates its functionality ie.using Screencastify or OBS video uploaded to Youtube.
 Provide a link to the video and add it to the README of your project.
 ie. Template:
-[![Alt text for your video](assets/images/Youtubescreenshotreadmegenerator.png)](https://youtu.be/xxGy6bumx08 "Put hover text here!")
-
-https://youtu.be/xxGy6bumx08
+![Alt text for your video](assets/images/Youtubescreenshotreadmegenerator.png)(https://youtu.be/xxGy6bumx08 "Click Here!")
 
 ##License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project.

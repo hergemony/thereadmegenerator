@@ -69,7 +69,7 @@ inquirer.prompt([
 },
 {
     type: "input",
-    message: "Include a Video Demo (Use the following format and link: ",
+    message: "Include a Video Demo (Use the following format and link: ![Alt text for your video](assets/images/Youtubescreenshotreadmegenerator.png)(https://youtu.be/xxGy6bumx08)",
     name: "Video",
 
 },
@@ -77,7 +77,7 @@ inquirer.prompt([
         type: "list",
         message: "What license is the application covered under?",
         choices: [
-            "MIT ![License](https://img.shields.io/badge/License-MIT-blue)",
+            "MIT",
             "Apache-2.0",
             "GPL 3.0",
             "BSD 2 Clause",

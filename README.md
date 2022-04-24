@@ -6,7 +6,7 @@
 ## Description
 A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
-## Table of Contents (optional)
+## Table of Contents
 [Installation](##Installation),
 [Usage](##Usage),
 [Screenshot](#Screenshot),
@@ -31,7 +31,6 @@ This application allows users to quickly and easily create a README file by usin
 ![Alt text for your video](assets/images/Youtubescreenshotreadmegenerator.png)(https://youtu.be/xxGy6bumx08 "Click Here!")
 
 ## License
-MIT
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## Features
